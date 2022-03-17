@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+}
+
+p {
+    text-decoration: double;
+    color:red;
+    text-align:center;
+    letter-spacing: normal;
+    }
+    
+        table{
+        border-color: red;
+        text-align: center;
+        background-color: blue;
+        color:snow;
+        border: 1px solid red;
+    width: 50% !important; /*Importante manter o !important rs */
+    margin: auto;
+        }
