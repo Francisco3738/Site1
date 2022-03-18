@@ -1,17 +1,16 @@
 h1 {
-    background-color: aqua;
-    color:gold
+    color:blue;
+    text-align: center;
     
 }
 body {
-    background-color:blueviolet;
+    background-color: antiquewhite;
+    
 }
 
 p{
-    font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
-    color:deeppink;
-    text-align: center;
-    background-color: black;
+    color: navy;
+    
     }
-
+    
+    
