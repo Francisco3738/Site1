@@ -1,5 +1,5 @@
 h1 {
-    color:blue;
+    color:navy;
     text-align: center;
     
 }
@@ -12,5 +12,101 @@ p{
     color: navy;
     
     }
-    
-    
+
+    a{
+        text-decoration: none;
+        color:navy;
+        
+    }
+
+   a:visited {
+
+       background-color:powderblue;
+       
+   } 
+
+   a:hover {
+       text-decoration: underline;
+       text-decoration-style: solid;
+       text-decoration-color: purple;
+   }
+
+   a:active{
+       background-color: yellow;
+   }
+
+   .tabela {
+      
+    border-width: 5px;
+    border-style: double;
+    border-color:green;
+    border-collapse: separate;
+    width: 100%;
+    border:5px;
+   }
+
+   tbody {
+       font-size: 15px;
+   }
+
+   th {
+
+       border-width: 2px;
+       border-style: ridge;
+       border-color: red;
+   }
+ 
+   
+  td {
+       border-width: 2px;
+       border-style: ridge;
+       border-color: red;
+   } 
+
+     
+   tr {
+       background-color:aqua;
+       
+   }
+   
+   tr:hover {
+       background-color: purple;
+       cursor:text;
+   }
+
+  tfoot {
+      font-size: 9px;
+      font-weight: 700;
+  }
+  
+  ul{
+      list-style-type: disc;
+      list-style-position: outside;
+  }
+
+  ul li {
+      color:blue;
+  }
+
+  ul li:hover {
+      background-color: yellow;
+      cursor:pointer;
+  }
+
+  ol {
+      list-style-type: upper-roman;
+  }
+
+  ol li {
+      color:blue;
+      cursor: poiter;
+  }
+
+  ol li:hover {
+      background-color: yellow;
+      cursor:pointer;
+  }
+
+  ol li: item-par {
+      background-color:green
+  }
