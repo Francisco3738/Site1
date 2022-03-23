@@ -110,3 +110,20 @@ p{
   ol li: item-par {
       background-color:green
   }
+  
+  div, article {
+      border-width: 1px;
+      border-style: solid;
+      border-color: grey;
+      background-color: azure;
+      padding-left: 8px;
+      padding-right: 8px;
+      margin-top: 8px;
+      margin-right: 8px;
+  }
+
+  .container {
+      display:flex;
+      justify-content: space-around;
+      flex-direction: row;
+  }
