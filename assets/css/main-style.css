@@ -1,8 +1,47 @@
+@font-face {
+    font-family: 'franchico';
+    src: url('../fonts/Caveat-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family:franchicoII ;
+    src: url('../fonts/Lacquer-Regular.ttf');
+}
+
+@font-face {
+    font-family: franchicoIII;
+    src: url('../fonts/Creepster-Regular.ttf');
+}
+
+@font-face {
+    font-family: franchicoIV;
+    src: url('../fonts/LaBelleAurore-Regular.ttf');
+}
+
+@font-face {
+    font-family: franchicoV;
+    src: url('../fonts/Montez-Regular.ttf');
+}
+
+@font-face {
+    font-family:franchicoVI ;
+    src: url('../fonts/FontdinerSwanky-Regular.ttf');
+}
+
+
 h1 {
     color:navy;
     text-align: center;
+    font-family: franchicoV;
     
 }
+
+h2 {
+
+    text-align: center;font-family: franchicoVI;
+    
+}
+
 body {
     background-color: antiquewhite;
     
@@ -10,12 +49,14 @@ body {
 
 p{
     color: navy;
+    text-align: center;
     
     }
 
     a{
         text-decoration: none;
         color:navy;
+        
         
     }
 
@@ -126,4 +167,13 @@ p{
       display:flex;
       justify-content: space-around;
       flex-direction: row;
+  }
+
+  .img1 {
+      width: 260px;
+      height: auto;
+      border-radius: 50%;
+      border:1px; 
+      
+      
   }
