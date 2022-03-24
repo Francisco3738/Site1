@@ -175,5 +175,25 @@ p{
       border-radius: 50%;
       border:1px; 
       
-      
-  }
+        }
+
+        nav {
+            display:flex;
+        }
+
+        nav ul {
+            list-style: none;
+            margin:0;
+            padding:0;
+            
+        }
+
+        nav ul li {
+            float: left;
+        }
+
+        nav ul li a {
+            display: block;
+            padding:5px;
+            background-color: transparent;
+        }
