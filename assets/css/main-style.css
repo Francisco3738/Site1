@@ -86,10 +86,6 @@ p{
     border:5px;
    }
 
-   tbody {
-       font-size: 15px;
-   }
-
    th {
 
        border-width: 2px;
@@ -111,7 +107,8 @@ p{
    }
    
    tr:hover {
-       background-color: purple;
+
+       background-color: blue;
        cursor:text;
    }
 
@@ -149,7 +146,7 @@ p{
   }
 
   ol li: item-par {
-      background-color:green
+      background-color:green;
   }
   
   div, article {
@@ -177,8 +174,9 @@ p{
       
         }
 
+    
         nav {
-            display:flex;
+            display:flex;   
         }
 
         nav ul {
