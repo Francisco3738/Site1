@@ -33,12 +33,14 @@ h1 {
     color:navy;
     text-align: center;
     font-family: franchicoV;
+    font-size: 30px;
     
 }
 
 h2 {
 
     text-align: center;font-family: franchicoVI;
+    font-size: 20px;
     
 }
 
@@ -176,13 +178,16 @@ p{
 
     
         nav {
-            display:flex;   
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
         }
 
         nav ul {
             list-style: none;
             margin:0;
             padding:0;
+            overflow: hidden;
             
         }
 
